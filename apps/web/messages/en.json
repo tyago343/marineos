@@ -62,5 +62,76 @@
         "mismatch": "Passwords do not match"
       }
     }
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "home": {
+    "dashboard": {
+      "welcome": "Welcome, {name}",
+      "wip": "Dashboard under construction",
+      "signOut": "Sign out"
+    },
+    "emptyState": {
+      "title": "No boats yet",
+      "description": "Add your first boat to start managing maintenance, inventory, and more.",
+      "cta": "Add my first boat"
+    }
+  },
+  "onboarding": {
+    "skip": "Skip for now",
+    "stepName": {
+      "title": "What's your boat's name?",
+      "description": "Choose a name to identify it in MarineOS.",
+      "nameLabel": "Boat name",
+      "namePlaceholder": "e.g. North Wind",
+      "next": "Next"
+    },
+    "stepDetails": {
+      "title": "Boat details",
+      "description": "Add manufacturer, model, and year if you know them.",
+      "manufacturerLabel": "Manufacturer",
+      "manufacturerPlaceholder": "e.g. Beneteau",
+      "modelLabel": "Model",
+      "modelPlaceholder": "e.g. Oceanis 46.1",
+      "yearLabel": "Year built",
+      "yearPlaceholder": "Select year",
+      "back": "Back",
+      "next": "Next"
+    },
+    "stepEngines": {
+      "title": "Engines",
+      "description": "How many engines does your boat have?",
+      "engineCountLabel": "Number of engines",
+      "engineCountPlaceholder": "0",
+      "back": "Back",
+      "next": "Next"
+    },
+    "stepSummary": {
+      "title": "Summary",
+      "description": "Review your boat details before creating.",
+      "name": "Name",
+      "manufacturer": "Manufacturer",
+      "model": "Model",
+      "year": "Year",
+      "engineCount": "Number of engines",
+      "back": "Back",
+      "submit": "Create boat",
+      "submitting": "Creating...",
+      "error": {
+        "unauthorized": "Session expired. Please sign in again.",
+        "generic": "Something went wrong. Please try again."
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "Name is required",
+        "tooLong": "Name cannot exceed 100 characters"
+      },
+      "manufacturer": { "tooLong": "Maximum 100 characters" },
+      "model": { "tooLong": "Maximum 100 characters" },
+      "yearBuilt": { "invalid": "Invalid year" },
+      "engineCount": { "invalid": "Invalid number" }
+    }
   }
 }

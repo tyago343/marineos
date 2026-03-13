@@ -62,5 +62,76 @@
         "mismatch": "Las contraseñas no coinciden"
       }
     }
+  },
+  "common": {
+    "loading": "Cargando..."
+  },
+  "home": {
+    "dashboard": {
+      "welcome": "Bienvenido, {name}",
+      "wip": "Dashboard en construcción",
+      "signOut": "Cerrar sesión"
+    },
+    "emptyState": {
+      "title": "Aún no tenés barcos",
+      "description": "Agregá tu primer barco para empezar a gestionar mantenimiento, inventario y más.",
+      "cta": "Agregar mi primer barco"
+    }
+  },
+  "onboarding": {
+    "skip": "Omitir por ahora",
+    "stepName": {
+      "title": "¿Cómo se llama tu barco?",
+      "description": "Elegí un nombre para identificarlo en MarineOS.",
+      "nameLabel": "Nombre del barco",
+      "namePlaceholder": "Ej: Viento Norte",
+      "next": "Siguiente"
+    },
+    "stepDetails": {
+      "title": "Datos del barco",
+      "description": "Completá marca, modelo y año si los conocés.",
+      "manufacturerLabel": "Marca / fabricante",
+      "manufacturerPlaceholder": "Ej: Beneteau",
+      "modelLabel": "Modelo",
+      "modelPlaceholder": "Ej: Oceanis 46.1",
+      "yearLabel": "Año de construcción",
+      "yearPlaceholder": "Seleccionar año",
+      "back": "Atrás",
+      "next": "Siguiente"
+    },
+    "stepEngines": {
+      "title": "Motores",
+      "description": "¿Cuántos motores tiene tu barco?",
+      "engineCountLabel": "Cantidad de motores",
+      "engineCountPlaceholder": "0",
+      "back": "Atrás",
+      "next": "Siguiente"
+    },
+    "stepSummary": {
+      "title": "Resumen",
+      "description": "Revisá los datos antes de crear tu barco.",
+      "name": "Nombre",
+      "manufacturer": "Marca",
+      "model": "Modelo",
+      "year": "Año",
+      "engineCount": "Cantidad de motores",
+      "back": "Atrás",
+      "submit": "Crear barco",
+      "submitting": "Creando...",
+      "error": {
+        "unauthorized": "Sesión expirada. Volvé a iniciar sesión.",
+        "generic": "Ocurrió un error. Intentá de nuevo."
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "El nombre es obligatorio",
+        "tooLong": "El nombre no puede superar los 100 caracteres"
+      },
+      "manufacturer": { "tooLong": "Máximo 100 caracteres" },
+      "model": { "tooLong": "Máximo 100 caracteres" },
+      "yearBuilt": { "invalid": "Año inválido" },
+      "engineCount": { "invalid": "Cantidad inválida" }
+    }
   }
 }
