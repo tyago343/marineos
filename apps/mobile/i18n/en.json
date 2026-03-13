@@ -1,0 +1,73 @@
+{
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Log in to your MarineOS account",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "Your password",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up",
+      "error": {
+        "invalidCredentials": "Invalid email or password",
+        "emailTaken": "This email is already registered",
+        "generic": "Something went wrong. Please try again."
+      }
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Sign up to start managing your boat",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Repeat your password",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in",
+      "error": {
+        "invalidCredentials": "Invalid email or password",
+        "emailTaken": "This email is already registered",
+        "generic": "Something went wrong. Please try again."
+      },
+      "success": {
+        "title": "Account created!",
+        "checkEmail": "Check your email to confirm your account"
+      }
+    },
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "password": {
+        "required": "Password is required",
+        "tooShort": "Password must be at least 8 characters",
+        "tooLong": "Password cannot exceed 72 characters"
+      },
+      "fullName": {
+        "required": "Full name is required",
+        "tooLong": "Full name cannot exceed 100 characters"
+      },
+      "confirmPassword": {
+        "required": "Please confirm your password",
+        "mismatch": "Passwords do not match"
+      }
+    }
+  },
+  "tabs": {
+    "home": "Home"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "welcomeUser": "Welcome, {{name}}",
+    "signOut": "Sign out"
+  }
+}

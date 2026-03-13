@@ -1,0 +1,73 @@
+{
+  "auth": {
+    "login": {
+      "title": "Iniciar sesión",
+      "subtitle": "Ingresá a tu cuenta de MarineOS",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Tu contraseña",
+      "submit": "Iniciar sesión",
+      "submitting": "Ingresando...",
+      "noAccount": "¿No tenés cuenta?",
+      "register": "Registrate",
+      "error": {
+        "invalidCredentials": "Email o contraseña incorrectos",
+        "emailTaken": "Este email ya está registrado",
+        "generic": "Ocurrió un error. Intentá de nuevo."
+      }
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Registrate para empezar a gestionar tu barco",
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Mínimo 8 caracteres",
+      "confirmPassword": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "Repetí tu contraseña",
+      "submit": "Crear cuenta",
+      "submitting": "Creando cuenta...",
+      "hasAccount": "¿Ya tenés cuenta?",
+      "login": "Iniciá sesión",
+      "error": {
+        "invalidCredentials": "Email o contraseña incorrectos",
+        "emailTaken": "Este email ya está registrado",
+        "generic": "Ocurrió un error. Intentá de nuevo."
+      },
+      "success": {
+        "title": "¡Cuenta creada!",
+        "checkEmail": "Revisá tu email para confirmar tu cuenta"
+      }
+    },
+    "validation": {
+      "email": {
+        "required": "El email es obligatorio",
+        "invalid": "Email inválido"
+      },
+      "password": {
+        "required": "La contraseña es obligatoria",
+        "tooShort": "La contraseña debe tener al menos 8 caracteres",
+        "tooLong": "La contraseña no puede superar los 72 caracteres"
+      },
+      "fullName": {
+        "required": "El nombre es obligatorio",
+        "tooLong": "El nombre no puede superar los 100 caracteres"
+      },
+      "confirmPassword": {
+        "required": "Confirmá tu contraseña",
+        "mismatch": "Las contraseñas no coinciden"
+      }
+    }
+  },
+  "tabs": {
+    "home": "Inicio"
+  },
+  "home": {
+    "welcome": "Bienvenido",
+    "welcomeUser": "Bienvenido, {{name}}",
+    "signOut": "Cerrar sesión"
+  }
+}

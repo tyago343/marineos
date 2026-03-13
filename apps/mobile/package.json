@@ -1,0 +1,45 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "npx expo start",
+    "build": "echo 'Use eas build for native builds'",
+    "lint": "tsc --noEmit",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "@marineos/hooks": "workspace:*",
+    "@marineos/ui": "workspace:*",
+    "@marineos/validation": "workspace:*",
+    "@react-native-async-storage/async-storage": "~2.2.0",
+    "@supabase/supabase-js": "^2.99.1",
+    "expo": "~54.0.33",
+    "expo-constants": "~18.0.0",
+    "expo-linking": "~8.0.0",
+    "expo-localization": "~17.0.8",
+    "expo-router": "~6.0.0",
+    "expo-status-bar": "~3.0.9",
+    "i18next": "^24.2.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-i18next": "^15.4.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "zod": "^3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.3.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.19.37",
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "~54.0.10",
+    "jest-expo": "^55.0.9",
+    "react-test-renderer": "19.1.0",
+    "typescript": "^5"
+  }
+}
