@@ -47,16 +47,18 @@ export function UserNav({ email, displayName, avatarUrl }: UserNavProps) {
         </Avatar>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="end">
-        <DropdownMenuLabel className="font-normal">
-          <div className="flex flex-col gap-1">
-            {displayName && (
-              <p className="text-sm font-medium leading-none">{displayName}</p>
-            )}
-            <p className="text-xs text-muted-foreground leading-none">
-              {email}
-            </p>
-          </div>
-        </DropdownMenuLabel>
+        <DropdownMenuGroup>
+          <DropdownMenuLabel className="font-normal">
+            <div className="flex flex-col gap-1">
+              {displayName && (
+                <p className="text-sm font-medium leading-none">{displayName}</p>
+              )}
+              <p className="text-xs text-muted-foreground leading-none">
+                {email}
+              </p>
+            </div>
+          </DropdownMenuLabel>
+        </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem>
